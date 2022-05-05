@@ -1,0 +1,43 @@
+html {
+    font-size: 22px;  
+}
+
+body {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;  
+}
+main {
+    font-size: 80px;
+    color: rgb(194, 233, 19);
+    margin: 0.3em;
+    padding: 0.1em;
+    text-align: center;
+}
+article {
+    font-size: 40px;
+    color: rgb(190, 101, 42);
+    margin-left: auto;
+    margin-right: auto;
+    width: 17em;
+    padding: 0.1em;
+    text-align: center;
+}
+section {
+    font-size: 25px;
+    color: rgb(233, 19, 144);
+    padding: 0.3em;
+    text-align: left;
+    margin: 0.2em;
+}
+h1, h2 {
+    font-size: 20px;
+    color: rgb(102, 226, 149); 
+    padding: 0.8em;
+}
+footer {
+    background-color: rgb(32, 160, 60);
+    color: rgb(65, 19, 233);
+}
