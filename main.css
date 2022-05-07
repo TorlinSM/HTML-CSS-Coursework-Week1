@@ -37,14 +37,11 @@ h1, h2 {
     color: rgb(102, 226, 149); 
     padding: 0.8em;
 }
-footer {
-    background-color: rgb(32, 160, 60);
-    color: rgb(65, 19, 233);
-    font-family: 'Courier New', monospace;
-}
+
 a {
     color: rgba(15, 136, 130);
     padding: 20px 30px;
+    text-decoration: none;
 }
 .menu ul {
     display:flex;
@@ -56,4 +53,44 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(6, 41, 61);
+    color: #fff;
+    font-family: Helvetica, sans-serif;   
+}
+.header_section {
+    display: flex;
+    align-items: center;       
+}
+.header_item {
+    padding: 7px 5px;
+    font-size: 17px;
+    margin-left: 2px;
+}
+.header_item:hover {
+    background-color: blue;
+    border-radius: 40px;
+}
+.headerlogo {
+    font-weight: bold;
+    font-size: 30px;
+}
+.header_Button {
+    cursor: pointer;
+}
+.footer_item {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(226, 17, 17);
+    font-size: 15px;
+    
+}
+footer {
+   background-color: yellow;   
+}
